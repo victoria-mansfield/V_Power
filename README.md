@@ -1,2 +1,2 @@
-# V_Power
-R package of simulation-based power analysis functions
+# savvy.power
+Repo for power analysis simulation functions that can be used in future study planning

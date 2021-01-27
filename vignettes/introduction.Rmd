@@ -1,0 +1,32 @@
+---
+title: "introduction"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{introduction}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(savvy.power)
+```
+
+```{r}
+# use mcnemar_power
+
+mcnemar_power(N=seq(100,1000, 100),
+              sens1 = .15,
+              sens2 = .30,
+              spec1 = .942,
+              spec2 = .939,
+              prev = .28,
+              n.sims=2000)
+
+```

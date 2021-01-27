@@ -1,0 +1,18 @@
+Package: savvy.power
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Victoria",
+           family = "Mansfield",
+           role = c("cre"),
+           email = "vmansfield@savvysherpa.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package contains functions for running power analysis simulations.
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
